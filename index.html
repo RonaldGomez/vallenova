@@ -13,18 +13,19 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<!-- Latest compiled and minified JavaScript -->
 	<link rel="stylesheet" href="css/custom.css">
-	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/animate.css">
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	</head>
 <body>
 
-<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle animated wobble"><i class="fa fa-bars"></i></a>
 <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >VALLENOVA</a>
+                <a href="#top" onclick = $("#menu-close").click(); >VALLENOVA</a>
             </li>
             <li>
                 <a href="#nosotros" onclick = $("#menu-close").click(); >Nosotros</a>
@@ -46,14 +47,15 @@
 <!-- banner start -->
 <!-- ================ -->
 <header class="header" id="top">
-
-<div class="text-vertical-center">
-            <h1>Start Bootstrap</h1>
-            <h3>Free Bootstrap Themes &amp; Templates</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
-        </div>
-
+	<div class="text-vertical-center">
+		<div class="col-md-6">
+			<img src="assets/logo.png" class="animated flip">
+		  
+		  <p class="animated rollIn">Te ayudamos a generar valor en tu organización</p>
+		  
+		  <a href="#nosotros" class="btn btn-default boton animated zoomIn">Descubre mas..</a>
+	  </div>
+	  
 <!--
 	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
 	  <ol class="carousel-indicators">
@@ -124,7 +126,7 @@
 					<div class="row">
 						<div class="col-sm-4">
 							<div class="box-style-1 white-bg object-non-visible animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall" data-effect-delay="0">
-								<i class="app-web fa fa-cloud"></i>
+								<i class="box-bord app-web fa fa-cloud"></i>
 								<h2>Aplicaciones Web</h2>
 								<p>Desarrollamos desde webs corporativas adaptables a cualquier dispositivo hasta aplicaciones con más complejidad.</p>
 								
@@ -132,37 +134,37 @@
 						</div>
 						<div class="col-sm-4">
 							<div class="box-style-1 white-bg object-non-visible animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
-								<i class="app-esc fa fa-laptop"></i>
+								<i class="box-bord app-esc fa fa-laptop"></i>
 								<h2>Aplicaciones de Escritorio</h2>
 								<p>Desarrollamos software a medida y de calidad que genere valor para nuestros clientes.</p>
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<div class="box-style-1 white-bg object-non-visible animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall" data-effect-delay="400">
-								<i class="app-mov fa fa-mobile"></i>
+								<i class="box-bord app-mov fa fa-mobile"></i>
 								<h2>Aplicaciones Móviles</h2>
 								<p>Desarrollamos soluciones para dispositivos móviles con sistema operativo Android, IOS y Windows Phone.</p>
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<div class="box-style-1 white-bg object-non-visible animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall" data-effect-delay="0">
-								<i class="dis-graf fa fa-leaf"></i>
+								<i class="box-bord dis-graf fa fa-leaf"></i>
 								<h2>Diseño Gráfico</h2>
 								<p>Realizamos todo el material gráfico que necesiten nuestros clientes.</p>
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<div class="box-style-1 white-bg object-non-visible animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
-								<i class="oper-man fa fa-wrench"></i>
+								<i class="box-bord oper-man fa fa-wrench"></i>
 								<h2>Operación y Mantenimiento</h2>
 								<p>Brindamos ayuda a nuestros clientes para que puedan mantener sus sistemas funcionales y operativos.</p>
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<div class="box-style-1 white-bg object-non-visible animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall" data-effect-delay="400">
-								<i class="soporte fa fa-user"></i>
+								<i class="box-bord soporte fa fa-user"></i>
 								<h2>Soporte</h2>
-								<p>Siempre estaremos disponibles para ayudarte o asesorarte. <a href="#">Contactanos.</a></p>
+								<p>Siempre estaremos disponibles para ayudarte o asesorarte. <a href="#contact">Contactanos.</a></p>
 							</div>
 						</div>
 					</div>
@@ -398,17 +400,17 @@
     <div class="row" id="props-logos">
       <div class="asset image-props-illustrator"></div>
       <div class="asset image-props-photoshop"></div>
+      <div class="asset image-props-css3"></div>
       <div class="asset image-props-html5"></div>
       <div class="asset image-props-javascript"></div>
       <div class="asset image-props-bootstrap"></div>
       <div class="asset image-props-angular"></div>
-      <div class="asset image-props-css3"></div>
-      <div class="asset image-props-java"></div>
       <div class="asset image-props-rails"></div>
       <div class="asset image-props-ruby"></div>
       <div class="asset image-props-puntonet"></div>
       <div class="asset image-props-postgresql"></div>
       <div class="asset image-props-sql"></div>
+      <div class="asset image-props-java"></div>
       <div class="asset image-props-idempiere"></div>
       <div class="asset image-props-android"></div>
       <div class="asset image-props-iOS"></div>
@@ -424,10 +426,10 @@
 						<div class="row">
 							<div class="col-md-6">
 								<div class="footer-content">
-									<div class="logo-footer"><img id="logo-footer" src="assets/logo_red_footer.png" alt=""></div>
+									<div class="logo-footer"><img id="logo-footer" src="assets/logo_gris.png" alt=""></div>
 									<div class="row">
 										<div class="col-sm-6">
-											<p>Lorem ipsum dolor sit amet, consect tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven.</p>
+											<p>Le invitamos a que nos sigua en las redes sociales. Tenemos grandes novedades para usted y su organización.</p>
 											<ul class="social-links circle">
 												<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
 												<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
@@ -441,7 +443,7 @@
 												<li><i class="fa fa-map-marker pr-10"></i> One infinity loop, 54100</li>
 												<li><i class="fa fa-phone pr-10"></i> +00 1234567890</li>
 												<li><i class="fa fa-fax pr-10"></i> +00 1234567891 </li>
-												<li><i class="fa fa-envelope-o pr-10"></i> info@idea.com</li>
+												<li><i class="fa fa-envelope-o pr-10"></i> contacto@vallenova.pe</li>
 											</ul>
 										</div>
 									</div>
@@ -472,7 +474,7 @@
 											<div class="overlay-container">
 												<img src="assets/gallery-1.jpg" alt="">
 												<a href="portfolio-item.html" class="overlay small">
-													<i class="fa fa-link"></i>
+													<i class="fa fa-search"></i>
 												</a>
 											</div>
 										</div>
@@ -480,7 +482,7 @@
 											<div class="overlay-container">
 												<img src="assets/gallery-2.jpg" alt="">
 												<a href="portfolio-item.html" class="overlay small">
-													<i class="fa fa-link"></i>
+													<i class="fa fa-search"></i>
 												</a>
 											</div>
 										</div>
@@ -488,7 +490,7 @@
 											<div class="overlay-container">
 												<img src="assets/gallery-3.jpg" alt="">
 												<a href="portfolio-item.html" class="overlay small">
-													<i class="fa fa-link"></i>
+													<i class="fa fa-search"></i>
 												</a>
 											</div>
 										</div>
@@ -496,7 +498,7 @@
 											<div class="overlay-container">
 												<img src="assets/gallery-4.jpg" alt="">
 												<a href="portfolio-item.html" class="overlay small">
-													<i class="fa fa-link"></i>
+													<i class="fa fa-search"></i>
 												</a>
 											</div>
 										</div>
@@ -504,7 +506,7 @@
 											<div class="overlay-container">
 												<img src="assets/gallery-5.jpg" alt="">
 												<a href="portfolio-item.html" class="overlay small">
-													<i class="fa fa-link"></i>
+													<i class="fa fa-search"></i>
 												</a>
 											</div>
 										</div>
@@ -512,7 +514,7 @@
 											<div class="overlay-container">
 												<img src="assets/gallery-6.jpg" alt="">
 												<a href="portfolio-item.html" class="overlay small">
-													<i class="fa fa-link"></i>
+													<i class="fa fa-search"></i>
 												</a>
 											</div>
 										</div>
@@ -520,7 +522,7 @@
 											<div class="overlay-container">
 												<img src="assets/gallery-7.jpg" alt="">
 												<a href="portfolio-item.html" class="overlay small">
-													<i class="fa fa-link"></i>
+													<i class="fa fa-search"></i>
 												</a>
 											</div>
 										</div>
@@ -528,7 +530,7 @@
 											<div class="overlay-container">
 												<img src="assets/gallery-8.jpg" alt="">
 												<a href="portfolio-item.html" class="overlay small">
-													<i class="fa fa-link"></i>
+													<i class="fa fa-search"></i>
 												</a>
 											</div>
 										</div>
@@ -536,7 +538,7 @@
 											<div class="overlay-container">
 												<img src="assets/gallery-9.jpg" alt="">
 												<a href="portfolio-item.html" class="overlay small">
-													<i class="fa fa-link"></i>
+													<i class="fa fa-search"></i>
 												</a>
 											</div>
 										</div>
@@ -643,6 +645,37 @@ function initialize() {
 		        scrollTop: $(this.hash).offset().top
 		    }, 1000);
 		});
+
+		$(".header a[href^='#']").on('click', function(e) {
+		    e.preventDefault();
+		    $('html, body').animate({
+		        scrollTop: $(this.hash).offset().top
+		    }, 1000);
+		});
+
+		$(".footer-content li a[href^='#']").on('click', function(e) {
+		    e.preventDefault();
+		    $('html, body').animate({
+		        scrollTop: $(this.hash).offset().top
+		    }, 1000);
+		});
+
+		$(".subfooter nav li a[href^='#']").on('click', function(e) {
+		    e.preventDefault();
+		    $('html, body').animate({
+		        scrollTop: $(this.hash).offset().top
+		    }, 1000);
+		});
+
+		$("#nosotros a[href^='#']").on('click', function(e) {
+		    e.preventDefault();
+		    $('html, body').animate({
+		        scrollTop: $(this.hash).offset().top
+		    }, 1000);
+		});
+
+
+
     </script>
 
 </body>
