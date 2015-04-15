@@ -24,16 +24,16 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >Inicio</a>
+                <a href="#top"  onclick = $("#menu-close").click(); >VALLENOVA</a>
             </li>
             <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Nosotros</a>
+                <a href="#nosotros" onclick = $("#menu-close").click(); >Nosotros</a>
             </li>
             <li>
-                <a href="#about" onclick = $("#menu-close").click(); >Servicios</a>
+                <a href="#servicios" onclick = $("#menu-close").click(); >Servicios</a>
             </li>
             <li>
-                <a href="#services" onclick = $("#menu-close").click(); >Clientes</a>
+                <a href="#clientes" onclick = $("#menu-close").click(); >Clientes</a>
             </li>
             <li>
                 <a href="#portfolio" onclick = $("#menu-close").click(); >Portafolio</a>
@@ -43,85 +43,32 @@
             </li>
         </ul>
     </nav>
-
-<nav class="navbar navbar-default">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-				<!-- header-left start -->
-				<!-- ================ -->
-				<div class="header-left clearfix">
-					<!-- logo -->
-					<div class="logo">
-						<a href="index.html"><img id="logo" src="assets/logo.png" alt="Vallenova"></a>
-					</div>
-					<!-- name-and-slogan -->
-					<div class="site-slogan">
-						Generamos valor para su organización
-					</div>
-				</div>
-				<!-- header-left end -->
-			</div>
-			<div class="col-md-9">
-				<!-- header-right start -->
-				<!-- ================ -->
-				<div class="header-right clearfix">
-					<!-- navbar start -->
-					<!-- ================ -->
-					<nav class="navbar navbar-default" role="navigation">
-						<div class="container-fluid">
-							<!-- Toggle get grouped for better mobile display -->
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-							</div>
-							<!-- Collect the nav links, forms, and other content for toggling -->
-							<div class="collapse navbar-collapse" id="navbar-collapse-1">
-								<ul class="nav navbar-nav navbar-right">
-									<li><a href="index.html">Nosotros</a></li>
-									<li><a href="#">Servicios</a></li>													
-									<!-- mega-menu start -->
-									<li><a href="#">Clientes</a></li>
-									<!-- mega-menu end -->
-									<!-- mega-menu start -->
-									<li><a href="#">Portafolio</a></li>
-									<!-- mega-menu end -->
-									<li><a href="#">Contacto</a></li>
-								</ul>
-							</div>
-						</div>
-					</nav>
-					<!-- navbar end -->
-				</div>
-				<!-- header-right end -->
-			</div>
-		</div>
-	</div>
-</nav>
-
-
 <!-- banner start -->
 <!-- ================ -->
 <header class="header" id="top">
+
+<div class="text-vertical-center">
+            <h1>Start Bootstrap</h1>
+            <h3>Free Bootstrap Themes &amp; Templates</h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+        </div>
+
+<!--
 	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
-	  <!-- Indicators 
 	  <ol class="carousel-indicators">
 	    <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
 	    <li class="" data-target="#myCarousel" data-slide-to="1"></li>
-	  </ol>-->
+	  </ol>
 	  <div class="container">
 		  <div class="col-md-6">
-		  <!-- Sliders -->
+
 			  <div class="carousel-inner">
 		      <div class="item active">
 		      	<h2>Software a Medida</h2>
 		      	<p><span class="fa fa-check-square">&nbsp</span>Somos una organización que mejora los procesos de nuestros clientes a través de soluciones de software de calidad.</p>
 		      	<p><span class="fa fa-check-square">&nbsp</span>Utilizamos metodologias ágiles para que el producto final se ajuste mas a la necesidad de nuestros clientes.</p>
-		      	<a href="page-contact.html" class="btn btn-default contact">Portafolio <i class="pl-10 fa fa-suitcase">&nbsp</i></a>
+		      	<a href="#portfolio" class="btn btn-default contact">Portafolio <i class="pl-10 fa fa-suitcase">&nbsp</i></a>
 					</div>
 					
 					<div class="item">
@@ -132,29 +79,23 @@
 		      	<p><span class="fa fa-check-square">&nbsp</span>Diseño Gráfico</p>
 		      	<p><span class="fa fa-check-square">&nbsp</span>Operación y Mantenimiento</p>
 		      	<p><span class="fa fa-check-square">&nbsp</span>Soporte</p>
-		      	<a href="page-contact.html" class="btn btn-default contact">Contactanos <i class="pl-10 fa fa-phone">&nbsp</i></a>
+		      	<a href="#contact" class="btn btn-default boton contact">Contactanos <i class="pl-10 fa fa-phone">&nbsp</i></a>
 					</div>
 				</div>
-
-
 			</div>
-							  <!-- Controles -->
-	 
+
 		  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
 		    <span class="glyphicon glyphicon-chevron-left"></span>
 		  </a>
 		  <a class="right carousel-control" href="#myCarousel" data-slide="next">
 		    <span class="glyphicon glyphicon-chevron-right"></span>
-		  </a>
+		  </a> 
 		</div>
-
-
-	</div>
-
+	</div> -->
 </header>
 <!-- banner end -->
 
-<div style="margin-top: 0px;" class="page-top">
+<div id="nosotros" style="margin-top: 0px;" class="page-top">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
@@ -163,7 +104,7 @@
 					<div class="separator"></div>
 					<p><span class="fa fa-quote-left">&nbsp;</span> Somos una organización dedicada al desarrollo de software de calidad. Trabajamos en estrecha relación con nuestros clientes utilizando metodologías ágiles para el desarrollo de software, esto nos permite gestionar de forma regular las expectativas de nuestros clientes. Además facilita la flexibilidad y la adaptación respecto a sus necesidades. <span class="fa fa-quote-right">&nbsp;</span>
 					</p>
-					<a href="page-contact.html" class="btn btn-default contact">Contactanos <i class="pl-10 fa fa-phone"></i></a>
+					<a href="#contact" class="btn btn-default boton contact">Contactanos <i class="pl-10 fa fa-phone"></i></a>
 				</div>
 			</div>
 		</div>
@@ -171,7 +112,7 @@
 </div>
 
 
-<section style="margin-top: 0px;" class="main-container gray-bg">
+<section id="servicios" style="margin-top: 0px;" class="main-container gray-bg">
 	<!-- main start -->
 	<!-- ================ -->
 	<div class="main">
@@ -236,7 +177,7 @@
 
 
 
-<div style="margin-top: 0px;" class="page-top">
+<div id="clientes" style="margin-top: 0px;" class="page-top">
 <div class="container">
   <div class="row">
     <div class='col-md-offset-2 col-md-8 text-center'>
@@ -365,7 +306,7 @@
 
 
 
-<div style="margin-top: 0px;" class="page-top">
+<div id="contact" style="margin-top: 0px;" class="page-top">
 <div class="container">
 	<div class="row">
 	    <div class='col-md-offset-2 col-md-8 text-center'>
@@ -415,7 +356,7 @@
 							<textarea class="form-control" rows="6" id="message" name="message" placeholder=""></textarea>
 							<i class="fa fa-pencil form-control-feedback"></i>
 						</div>
-						<input type="submit" value="Enviar" class="submit-button btn btn-default">
+						<input type="submit" value="Enviar" class="submit-button btn btn-default boton">
 					</form>
 				</div>
 			</div>
@@ -442,7 +383,7 @@
 </div>
 
 <!-- Map -->
-    <section id="contact" class="map">
+    <section class="map">
         <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
         <br />
         <small>
@@ -504,7 +445,7 @@
 											</ul>
 										</div>
 									</div>
-									<a href="page-about.html" class="link"><span>Read More</span></a>
+									<a href="#nosotros" class="link"><span>Ver mas</span></a>
 								</div>
 							</div>
 							<div class="space-bottom hidden-lg hidden-xs"></div>
@@ -513,19 +454,19 @@
 									<h2>Links</h2>
 									<nav>
 										<ul class="nav nav-pills nav-stacked">
-											<li><a href="index.html">Inicio</a></li>
-											<li><a href="index.html">Nosotros</a></li>
-											<li><a href="#">Servicios</a></li>													
-											<li><a href="#">Clientes</a></li>
-											<li><a href="#">Proyectos</a></li>
-											<li><a href="#">Contacto</a></li>
+											<li><a href="#top">Inicio</a></li>
+											<li><a href="#nosotros">Nosotros</a></li>
+											<li><a href="#servicios">Servicios</a></li>													
+											<li><a href="#clientes">Clientes</a></li>
+											<li><a href="#portfolio">Proyectos</a></li>
+											<li><a href="#contact">Contacto</a></li>
 										</ul>
 									</nav>
 								</div>
 							</div>
 							<div class="col-sm-6 col-md-3 col-md-offset-1">
 								<div class="footer-content">
-									<h2>Latest Projects</h2>
+									<h2>Proyectos Recientes</h2>
 									<div class="gallery row">
 										<div class="gallery-item col-xs-4">
 											<div class="overlay-container">
@@ -629,12 +570,12 @@
 									</div>   
 									<div class="collapse navbar-collapse" id="navbar-collapse-2">
 										<ul class="nav navbar-nav">
-											<li><a href="index.html">Inicio</a></li>
-											<li><a href="index.html">Nosotros</a></li>
-											<li><a href="#">Servicios</a></li>													
-											<li><a href="#">Clientes</a></li>
-											<li><a href="#">Portafolio</a></li>
-											<li><a href="#">Contacto</a></li>
+											<li><a href="#top">Inicio</a></li>
+											<li><a href="#nosotros">Nosotros</a></li>
+											<li><a href="#servicios">Servicios</a></li>													
+											<li><a href="#clientes">Clientes</a></li>
+											<li><a href="#portfolio">Portafolio</a></li>
+											<li><a href="#contact">Contacto</a></li>
 										</ul>
 									</div>
 								</nav>
@@ -676,7 +617,7 @@ function initialize() {
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active");
     });
-
+/*
     // Scrolls to the selected menu item on the page
     $(function() {
         $('a[href*=#]:not([href=#])').click(function() {
@@ -692,7 +633,16 @@ function initialize() {
                 }
             }
         });
-    });
+    });*/
+		// --------------------------------------------------------
+		//	Smooth Scrolling
+		// -------------------------------------------------------- 	
+		$(".sidebar-nav li a[href^='#']").on('click', function(e) {
+		    e.preventDefault();
+		    $('html, body').animate({
+		        scrollTop: $(this.hash).offset().top
+		    }, 1000);
+		});
     </script>
 
 </body>
