@@ -386,7 +386,7 @@ header .btn-default:hover,
 
 #props #props-logos > * {
   text-align: center;
-  margin-left: 40px; 
+  margin: 5px; 
 }
 
 #props #props-logos > *:first-child {
