@@ -479,6 +479,11 @@ header .btn-default:hover,
   height: 70px;
   background-image: url("../assets/windowsphone.png"); }
 
+.image-props-nexus {
+  width: 238px;
+  height: 60px;
+  background-image: url("../assets/nexusprotraining.png"); }
+
 .asset {
   display: inline-block;
   vertical-align: middle;
@@ -1570,4 +1575,12 @@ a.overlay.small i {
   .subfooter .navbar-default .navbar-collapse {
     border-color: #000000;
   }
+}
+
+/*animaciones*/
+.scrollpoint {
+  opacity: 0;
+}
+.scrollpoint.active {
+  opacity: 1 \0;
 }
