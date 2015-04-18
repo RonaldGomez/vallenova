@@ -20,6 +20,18 @@
 	</head>
 <body>
 
+<div class="pre-loader">
+    <div class="load-con">
+        <img src="assets/logo.png" class="animated fadeInDown" alt="">
+        <div class="spinner">
+          <div class="bounce1"></div>
+          <div class="bounce2"></div>
+          <div class="bounce3"></div>
+        </div>
+    </div>
+</div>
+
+
 <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle animated bounceInLeft"><i class="fa fa-bars"></i></a>
 <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
@@ -358,7 +370,7 @@
 							<textarea class="form-control" rows="6" id="message" name="message" placeholder=""></textarea>
 							<i class="fa fa-pencil form-control-feedback"></i>
 						</div>
-						<input type="submit" value="Enviar" class="submit-button btn btn-default boton">
+						<div class="scrollpoint sp-effect5"><input type="submit" value="Enviar" class="submit-button btn btn-default boton"></div>
 					</form>
 				</div>
 			</div>
@@ -434,7 +446,7 @@
 						<div class="logo-footer"><img id="logo-footer" src="assets/logo_gris.png" alt=""></div>
 						<div class="row">
 							<div class="col-sm-6">
-								<p>Le invitamos a que nos sigua en las redes sociales. Tenemos grandes novedades para usted y su organización.</p>
+								<p>Le invitamos a que nos siga en las redes sociales. Tenemos grandes novedades para usted y su organización.</p>
 								<ul class="social-links circle">
 									<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
 									<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
@@ -596,29 +608,6 @@
 <script src="js/slick.min.js"></script>
 <script src="js/waypoints.min.js"></script>
 <script src="js/scripts.js"></script>
-
-<script>
-var directionsDisplay,
-    directionsService,
-    map;
-
-function initialize() {
-  var directionsService = new google.maps.DirectionsService();
-  directionsDisplay = new google.maps.DirectionsRenderer();
-  var chicago = new google.maps.LatLng(41.850033, -87.6500523);
-  var mapOptions = { 
-  	zoom:7,
-  	mapTypeId: google.maps.MapTypeId.ROADMAP, 
-  	center: chicago,
-  	scrollwheel: false
-
-  }
-  map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
-
-  directionsDisplay.setMap(map);
-}
-
-</script>
 
 <script>
     // Closes the sidebar menu
